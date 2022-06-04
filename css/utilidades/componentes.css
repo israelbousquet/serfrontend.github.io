@@ -1,0 +1,29 @@
+.botao{
+  background: var(--cor-1);
+  padding: 12px 32px;
+  border-radius: 32px;
+  text-decoration: none;
+  color: var(--cor-0);
+  font: 700 1.2rem/1.65 'Plus Jakarta Sans', sans-serif;
+  display: block;
+  max-width: max-content;
+}
+
+.btn-introducao{
+  background: var(--cor-g1);
+}
+
+.btn-footer{
+  background: var(--cor-g2);
+}
+
+.botao-vantagens{
+  cursor: pointer;
+  display: block;
+  max-width: max-content;
+}
+
+.botao-vantagens:hover{
+  color: var(--cor-r2);
+}
+

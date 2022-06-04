@@ -1,0 +1,43 @@
+:root {
+  --cor-0: #ffffff;
+  --cor-1: #13183f;
+  --cor-2: #83869a;
+  --cor-p2: #666ca3;
+  --cor-r1: #f74780;
+  --cor-r2: #fd96b6;
+  --cor-g1: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  --cor-g2: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+.cor-0 {
+  color: var(--cor-0);
+}
+
+.cor-1 {
+  color: var(--cor-1);
+}
+
+.cor-2 {
+  color: var(--cor-2);
+}
+
+.cor-p2 {
+  color: var(--cor-p2);
+}
+
+.cor-r1 {
+  color: var(--cor-r1);
+}
+
+.cor-r2 {
+  color: var(--cor-r2);
+}
+
+
+.cor-g1 {
+  color: var(--cor-g1);
+}
+
+.cor-g2 {
+  color: var(--cor-g2);
+}

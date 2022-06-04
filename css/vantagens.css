@@ -1,0 +1,60 @@
+.vantagens-bg {
+  background-image: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 86px;
+  justify-items: center;
+}
+
+.vantagens-item {
+  display: grid;
+  align-items: start;
+  gap: 16px;
+  max-height: 322px;
+  max-width: 350px;
+  padding: 64px 32px 40px;
+  background: var(--cor-0);
+  border-radius: 20px;
+  position: relative;
+}
+
+.vantagens-item img {
+  position: absolute;
+  top: -26px;
+  left: 34px;
+}
+
+.vantagens-item-principal {
+  background-image: var(--cor-g1);
+}
+
+@media (max-width: 1200px) {
+  .vantagens {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .vantagens {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .vantagens {
+    grid-template-columns: 1fr;
+    gap: 64px;
+  }
+
+  .vantagens-bg {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+}
