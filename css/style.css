@@ -1,8 +1,8 @@
 /* utilidades */
 
-@import "/css/utilidades/cores.css";
-@import "/css/utilidades/componentes.css";
-@import "/css/utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
 
 /* Global */
 @import "./global/global.css";
