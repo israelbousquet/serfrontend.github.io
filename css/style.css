@@ -1,20 +1,20 @@
 /* utilidades */
 
-@import "/css/cores.css";
-@import "/css/tipografia.css";
-@import "/css/componentes.css";
+@import "./css/cores.css";
+@import "./css/tipografia.css";
+@import "./css/componentes.css";
 
 /* Global */
-@import "/css/global.css";
+@import "./css/global.css";
 
 /* header */
-@import "/css/header.css";
+@import "./css/header.css";
 
 /* Introducao */
 @import "/css/introducao.css";
 
 /* vantagens */
-@import "/css/vantagens.css";
+@import "./css/vantagens.css";
 
 /* footer */
-@import "/css/footer.css"
+@import "./css/footer.css"
