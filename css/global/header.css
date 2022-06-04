@@ -11,3 +11,9 @@
   padding-bottom: 18px;
   margin: 0 auto;
 }
+
+@media (max-width: 750px){
+  .header img{
+    max-width: 95px;
+  }
+}

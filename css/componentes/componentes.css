@@ -9,6 +9,12 @@
   max-width: max-content;
 }
 
+@media (max-width: 600px){
+  .botao{
+    font: 700 1rem/1.65 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
 .btn-introducao{
   background: var(--cor-g1);
 }

@@ -26,9 +26,10 @@
   max-width: 35ch;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 750px) {
   .introducao {
     padding-bottom: 0px;
+    grid-template-columns: 1fr;
     gap: 32px;
   }
 
@@ -39,11 +40,5 @@
   .imagem-desktop,
   .imagem-tablet {
     display: none;
-  }
-}
-
-@media(max-width: 1000px) {
-  .introducao {
-    grid-template-columns: 1fr;
   }
 }
