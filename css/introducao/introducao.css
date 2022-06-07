@@ -1,19 +1,21 @@
+.introducao-bg{
+  background-image: url(../../img/image-hero-desktop.png);
+  background-repeat: no-repeat;
+  background-position: right -150px top -100px;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+}
+
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 .introducao-imagem img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
-
-.imagem-tablet,
-.imagem-mobile {
   display: none;
 }
 
@@ -26,19 +28,35 @@
   max-width: 35ch;
 }
 
+@media (max-width: 1300px) {
+  .introducao-bg{
+    background-position: right -150px top -50px;
+  }
+  .introducao{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
+@media (max-width: 1100px){
+  .introducao{
+    padding-top: 150px;
+    padding-bottom: 60px;
+  }
+  .introducao-imagem img{
+    display: block;
+  }
+  .introducao-bg{
+    background: var(--cor-0);
+  }
+}
+
 @media(max-width: 750px) {
   .introducao {
+    padding-top: 150px;
     padding-bottom: 0px;
     grid-template-columns: 1fr;
     gap: 32px;
   }
 
-  .imagem-mobile {
-    display: block;
-  }
-
-  .imagem-desktop,
-  .imagem-tablet {
-    display: none;
-  }
 }
